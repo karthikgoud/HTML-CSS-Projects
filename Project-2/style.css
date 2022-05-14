@@ -15,6 +15,7 @@
 }
 
 .content{
+    border-radius: 10px;
     padding: 20px;
     background-color: rgb(205, 222, 243);
     width: 500px;
