@@ -7,14 +7,62 @@
 .container{
     background-color: aqua;
     height: 100vh;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .content{
-
+    padding: 20px;
     background-color: rgb(205, 222, 243);
     width: 500px;
-    height: 400px;
+    height: 500px;
+}
+
+.top-one{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.top-two{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+
+}
+
+.middle-section{
+    display:flex;
+    flex-direction: column;
+}
+
+.bottom-one{
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+
+
+}
+
+.bottom-two{
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+
+
+}
+
+.btn-section{
+    display: flex;
+    justify-content: end;
+}
+
+button{
+width: 100px;
+height: 30px;
+background-color: red;
+color: white;
 }
