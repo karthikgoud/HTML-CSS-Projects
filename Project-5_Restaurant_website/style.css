@@ -50,6 +50,7 @@ nav{
     font-size: 32px;
 }
 
+/* Hero section----------------------- */
 .hero{
     display: flex;
     justify-content: center;
@@ -87,6 +88,40 @@ nav{
     color:white;
 }
 
+
+
+/* -----Features ---------------------------*/
+
+.features{
+    margin: 100px 70px 50px 70px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.feature{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    transition: 0.2s ease-in-out;
+
+}
+
+.feature:hover{
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.3);
+}
+
+/* ---------Divider------------ */
+
+.divider{
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+
+/* Media quries */
+
 @media (max-width:786px){
     .hero{
         flex-direction: column;
@@ -114,6 +149,3 @@ nav{
     }
 
 }
-
-
-
