@@ -13,6 +13,17 @@ body,html{
     font-family: 'Roboto', sans-serif;
 }
 
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+}
+
 /* Navigation */
 
 nav{
@@ -24,11 +35,11 @@ nav{
 
 }
 
-/* .navigation{
+.navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
-} */
+}
 
 .container{
     max-width: 1200px;
@@ -41,6 +52,67 @@ nav{
 
 .hero{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tag{
+    background-color:#149F39;
+    align-self: flex-start;
+    padding: 5px 10px;
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 1.2;
+
+}
+.hero-content p{
+    font-size: 12px;
+}
+
+
+.explore-btn{
+    background-color: #FFC066;
+    align-self: flex-start;
+    color:white;
+}
+
+@media (max-width:786px){
+    .hero{
+        flex-direction: column;
+        gap: 10px;
+        
+        
+    }
+
+    .hero-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-img img{
+        width: 80%;
+    }
+
+    .hero-content{
+        padding: 10px;
+    }
+
+    .hero-content h1{
+        font-size: 32px;
+    }
+
 }
 
 
