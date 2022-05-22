@@ -87,3 +87,62 @@ html,body{
 .card-content h3{
     margin-bottom: 10px;
 }
+
+.contact-section{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+   color: white;
+}
+
+.contact-section h3{
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.contact-item{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    background-color: rgb(81, 86,3);
+    min-height: 250px;
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact p{
+    margin-bottom: 20px;
+}
+
+.about{
+    background-color: rgb(114, 35, 0);
+    height: 250px;
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.about p {
+    margin-bottom: 20px;
+
+}
+
+.footer{
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
