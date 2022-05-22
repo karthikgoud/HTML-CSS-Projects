@@ -125,3 +125,49 @@ footer{
     background-color: black;
     padding: 40px 0;
 }
+
+@media (max-width : 786px){
+    .lg-text{
+        font-size: 32px;
+    }
+
+        .hero-image{
+            min-height: 50vh;
+        }
+
+    .text-container{
+        background-color: red;
+        padding: 10px 0;
+        text-align: center;
+
+    }
+
+    .black-box h2{
+        font-size: 24px;
+    }
+
+    .black-box h2 span{
+        font-size: 32px;
+        font-weight: 400;
+    }
+
+    .bottom-section{
+        flex-direction: column;
+    }
+
+    .contact h2,.about h2{
+        margin-bottom: 20px;
+        font-size: 32px;
+        font-weight: 300;
+    }
+
+    .contact p,.about p{
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    
+
+
+
+
+}
