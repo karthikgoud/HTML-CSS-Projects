@@ -13,11 +13,28 @@ body,html{
     font-family: 'Roboto', sans-serif;
 }
 
+button{
+    border: none    ;
+    transition: 0.2s ease-in-out;
+
+}
+
+button:hover{
+    opacity: 0.7;
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+/* navigation */
+
 nav{
+    position: sticky;
     background-color: #270082;
+    z-index: 50;
 }
 
 .nav-container{
+
     width: 1100px;
     /* background-color: aqua; */
     margin: 0 auto;
@@ -79,3 +96,36 @@ nav{
     font-size: 12px;
     text-align: center;
 }
+
+/* Music section */
+
+
+.music-container{
+    background-color: #281154;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.music-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(113, 79, 79); */
+    max-width: 800px; 
+    color: white;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.music-content button{
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+}
+
+.music-content p{
+    text-align: justify;
+}
+
