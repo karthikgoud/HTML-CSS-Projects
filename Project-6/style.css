@@ -102,7 +102,7 @@ nav{
 
 .music-container{
     background-color: #281154;
-    height: 100vh;
+    height: 130vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,3 +129,35 @@ nav{
     text-align: justify;
 }
 
+/* white section */
+
+
+.white{
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+}
+
+.white-content{
+    gap: 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.white-content button{
+    padding: 10px;
+    background-color: #37008E;
+    color: #B4A0D4;
+}
+
+.white-content h2{
+    font-size: 16px;
+}
+
+.white-content p{
+    font-size: 14px;
+    text-align: justify;
+}
