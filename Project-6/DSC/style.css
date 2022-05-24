@@ -181,3 +181,18 @@ nav ul li:hover{
     background-position: center;
 
 }
+
+/* gift card */
+
+.gift-section{
+    margin: 100px 0 ;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.gift-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
