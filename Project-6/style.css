@@ -148,9 +148,10 @@ nav{
 }
 
 .white-content button{
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #37008E;
-    color: #B4A0D4;
+    color: white;
+    font-size: 16px;
 }
 
 .white-content h2{
@@ -161,3 +162,46 @@ nav{
     font-size: 14px;
     text-align: justify;
 }
+
+
+/* dark section */
+.dark{
+    background-image: url(images/video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.dark-content{
+    /* background-color: green; */
+    max-width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+    padding: 200px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-content h2{
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.dark-content p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.heading{
+    /* background-color: lightcoral; */
+}
+.para{
+    /* background-color: aqua; */
+    width: 900px;
+}
+
+/* gift section */
+
