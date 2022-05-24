@@ -205,3 +205,74 @@ nav{
 
 /* gift section */
 
+.gift-section{
+    /* background-color: aqua; */
+}
+
+.gift-content{
+    display: flex;
+    padding: 50px 150px;
+}
+
+.gift-text {
+    margin-left: 30px;
+}
+
+.gift-text h2{
+    margin-bottom: 30px;
+}
+
+.gift-text p{
+    margin-bottom: 30px;
+    font-weight: 400;
+
+}
+
+.empty-div{
+    border: 1px solid black;
+
+}
+
+.gift-text button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #37008E;
+    color: white;
+    font-weight: 100;
+}
+
+/* footer section */
+
+.footer-container{
+    background-color: #1B0058;
+}
+
+.footer-content{
+    /* background-color: lightblue; */
+    /* margin: 50px; */
+    max-width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding: 30px;
+    justify-content: space-between;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.footer-content .item{
+    padding: 10px 5px;
+    font-size: 12px;
+    padding-right: 50px;
+}
+
+.item h2{
+    border-bottom: 1px solid white;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 400;
+
+}
+
