@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+:root{
+    --purple500:#281154;
+    --purple300:#270082;
+    --purple600:#1B0058;
+    --red600:#dc0000;
+    --body:#f9f6ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation */
+
+header{
+    background-color: var(--purple300);
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+}
+
+.container{
+    width: 80%;
+    min-width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+
+/* Hero section */
+
+.hero-section{
+    background-image: url(images/hero_image.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* grid is used to center the */
+    display: grid; 
+    color: white;
+    place-items: center;
+    text-align: center;
+
+}
+
+.hero-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-section h1{
+    font-size: 96px;
+}
+
+.hero-section h3{
+    font-size: 32px;
+}
